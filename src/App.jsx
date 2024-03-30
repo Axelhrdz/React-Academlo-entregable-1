@@ -23,7 +23,8 @@ function App() {
 
   const objStyles = {
     // backgroundImage: `url(../public/assets/fortuna-2/fondo${image}.png)`,
-    backgroundImage: `url(/public/fortuna-2/fondo${image}.png)`,
+    // backgroundImage: `url(/public/fortuna-2/fondo${image}.png)`,
+    backgroundImage: `url(../fortuna-2/fondo${image}.png)`,
   }
 
   return (
