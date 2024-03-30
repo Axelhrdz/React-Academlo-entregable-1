@@ -35,7 +35,7 @@ button{
 
 .app__title{
   text-shadow: 2px 2px orange;
-  font-size: 3rem;
+  font-size:4rem;
 }
 
 @media only screen and (max-width: 445px) {
@@ -53,20 +53,35 @@ button{
 }
 
 .text p{
+  font-size: 2rem;
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.56);
+  background-color: rgba(34, 34, 34, 0.56);
   padding: 7px 14px;
   border-radius: 7px;
 }
 
 .btn{
   background-color: orange;
-  padding: 7px 14px;
+  padding: 7px 50px;
   border-radius: 7px;
   transition: transform .5s;
+  font-size: 4rem;
 }
 
 .btn:hover{
   transform: scale(1.1);
   transition: transform .5s;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .text p{
+    font-size: 1.2rem;
+  }
+
+  .btn{
+    font-size: 3rem;
+    padding: 7px 20px;
+  }
 }
