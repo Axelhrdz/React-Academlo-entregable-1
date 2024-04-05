@@ -35,12 +35,13 @@ button{
 
 .app__title{
   text-shadow: 2px 2px orange;
-  font-size:4rem;
+  font-size:6rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 445px) {
   .app__title{
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 
@@ -76,12 +77,16 @@ button{
 
 
 @media only screen and (max-width: 768px) {
+  .app__title{
+    font-size: 4rem;
+  }
+  
   .text p{
     font-size: 1.2rem;
   }
 
   .btn{
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 7px 20px;
   }
 }
